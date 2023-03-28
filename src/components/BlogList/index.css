@@ -1,0 +1,18 @@
+/* Write your CSS code here */
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+.ul-container {
+  padding-left: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+@media screen and (min-width: 576px) {
+  .ul-container {
+    padding-left: 95px;
+    padding-right: 95px;
+  }
+}
